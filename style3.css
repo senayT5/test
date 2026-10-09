@@ -1,0 +1,81 @@
+body {
+    background: linear-gradient(#e4b7ba,white) ;
+}
+
+section:nth-of-type(1) {
+    height: 100%;
+    width: 75%;
+    padding: 1em;
+    margin: 1em;
+    background: linear-gradient(#9baa81,#c4d7a4) ;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+section:nth-of-type(2) {
+    height: 100%;
+     width: 75%;
+    padding: 1em;
+    margin: 1em;
+    background: linear-gradient(#9baa81,#c4d7a4) ;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+section:nth-of-type(3) {
+    height: 100%;
+     width: 75%;
+    padding: 1em;
+    margin: 1em;
+background: linear-gradient(#9baa81,#c4d7a4) ;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+section:nth-of-type(4) {
+    height: 100%;
+     width: 75%;
+    padding: 1em;
+    margin: 1em;
+background: linear-gradient(#9baa81,#c4d7a4) ;
+    border-radius: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    color: #4d5541;
+    text-align: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+
+}
+
+a {
+    text-decoration: none;
+    color:#2b3025 ;
+    background-color: #9baa81 ;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 0.5em;
+    transition: ease 350ms;
+}
+    
+a:hover {
+    background-color: #95787a;
+    color: #9baa81;
+    border-radius: 0.5em;
+}
